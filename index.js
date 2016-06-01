@@ -44,11 +44,11 @@ function customizeStatusBar( props ) {
     }
   }
 
-  if (Platform.OS === 'android') {
+  /* if (Platform.OS === 'android') {
     if( props.style && props.style.backgroundColor ){
       StatusBar.setBackgroundColor( props.style.backgroundColor );
     }
-  }
+  } */
 }
 
 class NavigationBar extends Component {
